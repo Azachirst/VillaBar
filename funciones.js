@@ -1,3 +1,5 @@
+var mesa = prompt('Ingrese numero de mesa');
+
 $(document).ready(function() {
 
     $("#licafeteria").hide();
