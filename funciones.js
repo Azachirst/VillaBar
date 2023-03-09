@@ -6,7 +6,6 @@ $(document).ready(function() {
     $("#btcafeteria").click(function(){
         $("#licafeteria").slideToggle();
     });
-});
 
 $("#lilicuados").hide();
 $("#btlicuados").click(function(){
