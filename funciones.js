@@ -1,5 +1,3 @@
-var mesa = prompt('Bienvenido a Villa Bar, Ingrese numero de mesa:');
-
 
 $(document).ready(function() {
 
