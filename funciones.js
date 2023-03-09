@@ -1,8 +1,8 @@
-
+var mesa = prompt('Bienvenido a Villa Bar, Ingrese numero de mesa:');
 
 
 $(document).ready(function() {
-var mesa = prompt('Bienvenido a Villa Bar, Ingrese numero de mesa:');
+
     $("#lidesayunos").hide();
     $("#bdesayunos").click(function(){
         $("#lidesayunos").slideToggle();
