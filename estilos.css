@@ -1,0 +1,9 @@
+body{
+    background-image: url("img/madera.jpg");
+}
+
+ul{
+    list-style: none;
+    background-color: rgba(120, 148, 148, 0.7);
+}
+
