@@ -11,158 +11,749 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body >
+  <img src="img/bannerVB.png"  class="img-fluid" alt="banner">
     <div class="d-grid gap-1" >
-    <img src="img/bannerVB.jpg"  class="img-fluid" alt="banner">
+    <!-- <img src="img/bannerVB.jpg"  class="img-fluid" alt="banner"> -->
 
-        <button class="btn btn-success" type="button" id="btcafeteria" >Cefeteria</button>
 
-          <ul class="form-check" id="licafeteria">
-            <li><input type="checkbox" name="" id=""> Ristretto </li>
-            <li><input type="checkbox" name="" id=""> Expresso</li>
-            <li><input type="checkbox" name="" id=""> Cortado</li>
-            <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-            <li><input type="checkbox" name="" id=""> Doppio</li>
-            <li><input type="checkbox" name="" id=""> Americano</li>
-            <li><input type="checkbox" name="" id=""> Irlandes</li>
-          </ul>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/00.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/01.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/02.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/03.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/04.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/05.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/06.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/07.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/08.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/09.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/10.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/11.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
 
-        <button class="btn btn-success" type="button" id="btlicuados">Licuados</button>
-          <ul class="form-check" id="lilicuados">
-            <li><input type="checkbox" name="" id=""> Ristretto </li>
-            <li><input type="checkbox" name="" id=""> Expresso</li>
-            <li><input type="checkbox" name="" id=""> Cortado</li>
-            <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-            <li><input type="checkbox" name="" id=""> Doppio</li>
-            <li><input type="checkbox" name="" id=""> Americano</li>
-            <li><input type="checkbox" name="" id=""> Irlandes</li>
-          </ul>
+        <button class="btn btn-success" type="button" id="bdesayunos" >DESAYUNOS/MERIENDAS</button>
+    <div id="lidesayunos">
+      <div class="d-grid gap-2">
+      <button class="btn btn-light" type="button" id="bcafeteria">CAFETERIA</button>
+      </div>
+        <table class="table" id="cafeteria">
+          <thead>
+
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cant.</th>
+              <th scope="col">Descripción</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>RISTRETO</td>
+              <td>$350</td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>EXPRESSO</td>
+              <td>$350</td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>CORTADO</td>
+              <td>$400</td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>CAFE CON LECHE</td>
+              <td>$400</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button" id="blicuados">LICUADOS</button>
+        </div>
+        <table class="table" id="licuados">
+        <thead>
+
+        </tr>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cant.</th>
+              <th scope="col">Descripción</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>BANANA CON LECHE</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>DURAZNO CON AGUA/LECHE</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>EXPRIMIDO DE NARANJA</td>
+              <td>$600</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button" id="bfrapuchinos">FRAPUCHINOS</button>
+        </div>
+        <table class="table" id="frapuchinos">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cant.</th>
+              <th scope="col">Descripción</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>CHOCOLATE</td>
+              <td>$750</td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="checkbox" name="" id=""></th>
+              <td><input type="number" value="1"></td>
+              <td>CREMA</td>
+              <td>$750</td>
+            </tr>
+           </tbody>
+          </table>
+
+          <div class="d-grid gap-2">
+          <button class="btn btn-light" type="button" id="bsmoothies">SMOOTHIES</button>
+          </div>
+          <table class="table" id="smoothies">
+           <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cant.</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>COOL DMANGO<br>Mango+Durazno+Frutilla</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>ANANA GROVER<br>Ananá+Banana+Durazno</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>PASSION BLEND<br>Maracuyá+Ananá+Durazno</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>VITAL LIGHT<br>Durazno+Ananá+Frutilla</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>POWER MIX<br>Granada+Frutilla+Banana</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>THE SUBLIME<br>Kiwi+Ananá+Durazno</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>BLUE SUNSET<br>Arándano+Frutilla+Banana</td>
+                <td>$700</td>
+              </tr>
+              </tr>
+             </tbody>
+            </table>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-light" type="button" id="bcombos">COMBOS</button>
+            </div>
+            <table class="table" id="combos">
+             <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Cant.</th>
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LA JUANI<br>Infusión, dos criollos o dos medialunas y soda</td>
+                  <td>$700</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>EL VALEN<br>Infusión, dos panificación, untables, jugo</td>
+                  <td>$750</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LA MÁ<br>Infusión, dos tostadas, pan blanco/integral, queso crema, mermelada, jugo y soda</td>
+                  <td>$700</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LA CLA<br>Infusión, yogurt con granola y frutas de estación</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LA LA<br>Infusión, tostadas pan blanco/integral, queso untable, jamon, queso, palta, huevo revuelto, jugo y soda</td>
+                  <td>$1450</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>EL PIEDRA <br> (para 2 personas) Café/Té/Mate, manteca, dulce de leche, 4 tostadas pan de campo, jamon, queso, jugo y soda</td>
+                  <td>$2250</td>
+                </tr>
+
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>BLUE SUNSET<br>Arándano+Frutilla+Banana</td>
+                  <td>$700</td>
+                </tr>
+                </tr>
+               </tbody>
+        </table>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-light" type="button" id="bindividuales">INDIVIDUALES</button>
+          </div>
+          <table class="table" id="individuales">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cant.</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>MUFFINS</td>
+                <td>$450</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>PORCION DE BUDIN</td>
+                <td>$350</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>MAFALDA</td>
+                <td>$350</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>PORCION TORTA/TARTA DEL DIA</td>
+                <td>$650</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>ALFAJOR DE MAICENA</td>
+                <td>$350</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>ALFAJOR DE CHOCOLATE</td>
+                <td>$350</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>PASTA FROLA</td>
+                <td>$450</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>PORCION DE TOSTADAS</td>
+                <td>$350</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>MEDIALUNA</td>
+                <td>$200</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>CRIOLLO</td>
+                <td>$150</td>
+              </tr>
+             </tbody>
+            </table>
+</div>
+
+
+       
+        <button class="btn btn-success" type="button" id="balmuerzos">ALMUERZO/BRUNCH/CENA</button>
+        <div id="almuerzos">
+        <div class="d-grid gap-2">
+          <button class="btn btn-light" type="button" id="bbruschettas">BRUSCHETTAS</button>
+          </div>
+          <table class="table" id="bruschettas">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cant.</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>LA AGOS<br>Palta y huevo</td>
+                <td>$700</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>EL FRAN<br>Jamón crudo, rucula, tomate confitado y queso crema</td>
+                <td>$750</td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" name="" id=""></th>
+                <td><input type="number" value="1"></td>
+                <td>LA COLI<br>Queso azu, peras caramelizadas y nuez</td>
+                <td>$850</td>
+              </tr>
+             </tbody>
+            </table>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-light" type="button" id="bsandwiches">SANDWICHES</button>
+              </div>
+              <table class="table" id="sandwiches">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Cant.</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="" id=""></th>
+                    <td><input type="number" value="1"></td>
+                    <td>ABUELA<br>Tostado de jamon y queso (pan de molde/campo)</td>
+                    <td>$800</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox" name="" id=""></th>
+                    <td><input type="number" value="1"></td>
+                    <td>LA MARI<br>Pan ciabatta, lomo ahumado, rucula, tomates confitados, mayonesa casera</td>
+                    <td>$1350</td>
+                  </tr>
+                 </tbody>
+                </table>
+
+                <div class="d-grid gap-2">
+                  <button class="btn btn-light" type="button" id="bpapasfritas">PAPAS FRITAS</button>
+                  </div>
+                  <table class="table" id="papasfritas">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Cant.</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Precio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><input type="checkbox" name="" id=""></th>
+                        <td><input type="number" value="1"></td>
+                        <td>CLASICA</td>
+                        <td>$800</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><input type="checkbox" name="" id=""></th>
+                        <td><input type="number" value="1"></td>
+                        <td>PAPAS CON HUEVO</td>
+                        <td>$950</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><input type="checkbox" name="" id=""></th>
+                        <td><input type="number" value="1"></td>
+                        <td>CONCHEDDAR Y VERDEO</td>
+                        <td>$1200</td>
+                      </tr>
+                     </tbody>
+                    </table>
+
+                    <div class="d-grid gap-2">
+                      <button class="btn btn-light" type="button" id="bpizzas">PIZZAS</button>
+                      </div>
+                      <table class="table" id="pizzas">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Cant.</th>
+                            <th scope="col">Descripción</th>
+                            <th scope="col">Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><input type="checkbox" name="" id=""></th>
+                            <td><input type="number" value="1"></td>
+                            <td>MUZARELLA</td>
+                            <td>$1400</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><input type="checkbox" name="" id=""></th>
+                            <td><input type="number" value="1"></td>
+                            <td>NAPOLITANA</td>
+                            <td>$1500</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><input type="checkbox" name="" id=""></th>
+                            <td><input type="number" value="1"></td>
+                            <td>FUGAZZETTA</td>
+                            <td>$1800</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><input type="checkbox" name="" id=""></th>
+                            <td><input type="number" value="1"></td>
+                            <td>VERDURAS SALTEADAS</td>
+                            <td>$1830</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><input type="checkbox" name="" id=""></th>
+                            <td><input type="number" value="1"></td>
+                            <td>CALABRESA</td>
+                            <td>$1480</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><input type="checkbox" name="" id=""></th>
+                            <td><input type="number" value="1"></td>
+                            <td>ESPECIAL</td>
+                            <td>$1600</td>
+                          </tr>
+                         </tbody>
+                        </table>
+                      </div>
+
+        <button class="btn btn-success" type="button" id="bpostres">POSTRES</button>
+<div id="postres">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Cant.</th>
+          <th scope="col">Descripción</th>
+          <th scope="col">Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td><input type="number" value="1"></td>
+          <td>HELADO DE CHOCOLATE</td>
+          <td>$450</td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td><input type="number" value="1"></td>
+          <td>HELADO DE CREMA AMERICANA</td>
+          <td>$450</td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td><input type="number" value="1"></td>
+          <td>DURAZNO CON CREMA/DULCE DE LECHE</td>
+          <td>$450</td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td><input type="number" value="1"></td>
+          <td>MEMBRILLO CON QUESO</td>
+          <td>$350</td>
+        </tr>
+       </tbody>
+      </table>
+
+</div>
+
+        <button class="btn btn-success" type="button" id="bbebidas">BEBIDAS</button>
+
+        <div id="bebidas">
+          <div class="d-grid gap-2">
+            <button class="btn btn-light" type="button" id="bsinalcohol">SIN ALCOHOL</button>
+            </div>
+            <table class="table" id="sinalcohol">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Cant.</th>
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>AGUA</td>
+                  <td>$300</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>AGUA CON GAS</td>
+                  <td>$300</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LINEA COCA 500ML</td>
+                  <td>$350</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LEVITE<br>Pera/Pomelo/Manzana/Naranja</td>
+                  <td>$350</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LIMONADA EN JARRA</td>
+                  <td>$500</td>
+                </tr>
+               </tbody>
+              </table>
         
-        <button class="btn btn-success" type="button" id="btfrapuchino">Frapuchino</button>
-        <ul class="form-check" id="lifrapuchino">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
 
-        <button class="btn btn-success" type="button" id="btsmoothie">Smoothie</button>
-        <ul class="form-check" id="lismoothie">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
 
-        <button class="btn btn-success" type="button" id="btdesayuno">Desayuno/Merienda</button>
-        <ul class="form-check" id="lidesayuno">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
+          <div class="d-grid gap-2">
+            <button class="btn btn-light" type="button" id="bcervezas">CERVEZAS</button>
+            </div>
+            <table class="table" id="cervezas">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Cant.</th>
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>HEINEKEN LATA 473CC</td>
+                  <td>$450</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LATA BÔJ ORANGE HONEY</td>
+                  <td>$550</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LATA BÔJ GOLDEN ALE(RUBIA)</td>
+                  <td>$550</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LATA BÔJ AHUMADA SMOKED</td>
+                  <td>$550</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>LATA BÔJ IRISH RED</td>
+                  <td>$550</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>CORONA</td>
+                  <td>$550</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>IMPERIAL LAGER 1L</td>
+                  <td>$1000</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>ANDES ROJA 1L</td>
+                  <td>$880</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>ANDES NEGRA 1L</td>
+                  <td>$880</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>MILLER</td>
+                  <td>$1000</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>STELLA 1L</td>
+                  <td>$1100</td>
+                </tr>
+               </tbody>
+              </table>
+        
 
-        <button class="btn btn-success" type="button" id="btbruschettas">Bruschettas</button>
-        <ul class="form-check" id="libruschettas">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
 
-        <button class="btn btn-success" type="button" id="btsandwiches">Sandwiches</button>
-        <ul class="form-check" id="lisandwiches">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
-
-        <button class="btn btn-success" type="button" id="btpapafritas">Papa Fritas</button>
-        <ul class="form-check" id="lipapafritas">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
-
-        <button class="btn btn-success" type="button" id="btpizzas">Pizzas</button>
-        <ul class="form-check" id="lipizzas">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
-
-        <button class="btn btn-success" type="button" id="btpostres">Postres</button>
-        <ul class="form-check" id="lipostres">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
-
-        <button class="btn btn-success" type="button" id="btbebidas">Bebidas</button>
-        <ul class="form-check" id="libebidas">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
-
-        <button class="btn btn-success" type="button" id="btcervezas">Cervezas</button>
-        <ul class="form-check" id="licervezas">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
-
-        <button class="btn btn-success" type="button" id="btdrinks">Drinks</button>
-        <ul class="form-check" id="lidrinks">
-          <li><input type="checkbox" name="" id=""> Ristretto </li>
-          <li><input type="checkbox" name="" id=""> Expresso</li>
-          <li><input type="checkbox" name="" id=""> Cortado</li>
-          <li><input type="checkbox" name="" id=""> Cafe con leche</li>
-          <li><input type="checkbox" name="" id=""> Doppio</li>
-          <li><input type="checkbox" name="" id=""> Americano</li>
-          <li><input type="checkbox" name="" id=""> Irlandes</li>
-        </ul>
+          <div class="d-grid gap-2">
+            <button class="btn btn-light" type="button" id="bdrinks">DRINKS</button>
+            </div>
+            <table class="table" id="drinks">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Cant.</th>
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>CAMPARI TONIC</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>CYNAR JULEP</td>
+                  <td>$750</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>RUSSIAN SPRING PUNCH</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>MOJITO</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>APEROL SPRINTS</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>GIN C/PEPINO</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>GIN C/FRUTOS ROJOS</td>
+                  <td>$800</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox" name="" id=""></th>
+                  <td><input type="number" value="1"></td>
+                  <td>NEGRONI</td>
+                  <td>$800</td>
+                </tr>
+               </tbody>
+              </table>
+        </div>
 
         <button class="btn btn-primary" type="button">Enviar Pedido</button>
       </div>
-
-
-
       <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
       <script src="funciones.js"></script>
 </body>

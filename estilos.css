@@ -2,8 +2,44 @@ body{
     background-image: url("img/madera.jpg");
 }
 
-ul{
+table{
     list-style: none;
     background-color: rgba(120, 148, 148, 0.7);
 }
 
+input[type=number]{
+    width: 30px;
+    height: 25px;
+}
+
+td{
+    font-weight: bolder;
+}
+
+#banner{
+    height: 15px;
+    width: 15px;
+}
+
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion-button {        
+    background-color: #7fb85e;
+}
+
+.accordion-body{
+    background-color: rgba(167, 231, 106, 0.205);
+}
+
+.accordion-header{
+    background-color: #7fb85e;
+}
+
+.grupo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+color: #ffffff;
+}

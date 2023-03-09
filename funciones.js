@@ -1,69 +1,91 @@
-var mesa = prompt('Ingrese numero de mesa');
+
+
 
 $(document).ready(function() {
-
-    $("#licafeteria").hide();
-    $("#btcafeteria").click(function(){
-        $("#licafeteria").slideToggle();
+//var mesa = prompt('Ingrese numero de mesa');
+    $("#lidesayunos").hide();
+    $("#bdesayunos").click(function(){
+        $("#lidesayunos").slideToggle();
     });
-});
+    
+    $("#cafeteria").hide();
+    $("#bcafeteria").click(function(){
+        $("#cafeteria").slideToggle();
+    });
 
-$("#lilicuados").hide();
-$("#btlicuados").click(function(){
-    $("#lilicuados").slideToggle();
-});
+    $("#licuados").hide();
+    $("#blicuados").click(function(){
+        $("#licuados").slideToggle();
+    });
 
-$("#lifrapuchino").hide();
-$("#btfrapuchino").click(function(){
-    $("#lifrapuchino").slideToggle();
-});
+    $("#frapuchinos").hide();
+    $("#bfrapuchinos").click(function(){
+        $("#frapuchinos").slideToggle();
+    });
 
-$("#lismoothie").hide();
-$("#btsmoothie").click(function(){
-    $("#lismoothie").slideToggle();
-});
+    $("#smoothies").hide();
+    $("#bsmoothies").click(function(){
+        $("#smoothies").slideToggle();
+    });
 
-$("#lidesayuno").hide();
-$("#btdesayuno").click(function(){
-    $("#lidesayuno").slideToggle();
-});
+    $("#combos").hide();
+    $("#bcombos").click(function(){
+        $("#combos").slideToggle();
+    });
 
-$("#libruschettas").hide();
-$("#btbruschettas").click(function(){
-    $("#libruschettas").slideToggle();
-});
+    $("#individuales").hide();
+    $("#bindividuales").click(function(){
+        $("#individuales").slideToggle();
+    });
 
-$("#lisandwiches").hide();
-$("#btsandwiches").click(function(){
-    $("#lisandwiches").slideToggle();
-});
+    $("#almuerzos").hide();
+    $("#balmuerzos").click(function(){
+        $("#almuerzos").slideToggle();
+    });
 
-$("#lipapafritas").hide();
-$("#btpapafritas").click(function(){
-    $("#lipapafritas").slideToggle();
-});
+    $("#bruschettas").hide();
+    $("#bbruschettas").click(function(){
+        $("#bruschettas").slideToggle();
+    });
 
-$("#lipizzas").hide();
-$("#btpizzas").click(function(){
-    $("#lipizzas").slideToggle();
-});
+    $("#sandwiches").hide();
+    $("#bsandwiches").click(function(){
+        $("#sandwiches").slideToggle();
+    });
 
-$("#lipostres").hide();
-$("#btpostres").click(function(){
-    $("#lipostres").slideToggle();
-});
+    $("#papasfritas").hide();
+    $("#bpapasfritas").click(function(){
+        $("#papasfritas").slideToggle();
+    });
 
-$("#libebidas").hide();
-$("#btbebidas").click(function(){
-    $("#libebidas").slideToggle();
-});
+    $("#pizzas").hide();
+    $("#bpizzas").click(function(){
+        $("#pizzas").slideToggle();
+    });
 
-$("#licervezas").hide();
-$("#btcervezas").click(function(){
-    $("#licervezas").slideToggle();
-});
+    $("#postres").hide();
+    $("#bpostres").click(function(){
+        $("#postres").slideToggle();
+    });
 
-$("#lidrinks").hide();
-$("#btdrinks").click(function(){
-    $("#lidrinks").slideToggle();
+    $("#bebidas").hide();
+    $("#bbebidas").click(function(){
+        $("#bebidas").slideToggle();
+    });
+    
+    $("#sinalcohol").hide();
+    $("#bsinalcohol").click(function(){
+        $("#sinalcohol").slideToggle();
+    });
+
+    $("#cervezas").hide();
+    $("#bcervezas").click(function(){
+        $("#cervezas").slideToggle();
+    });
+
+    $("#drinks").hide();
+    $("#bdrinks").click(function(){
+        $("#drinks").slideToggle();
+    });
+
 });
